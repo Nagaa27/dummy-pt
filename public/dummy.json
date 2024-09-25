@@ -1,0 +1,94 @@
+[
+  {
+    "sales_order": {
+      "id": "SO987654321",
+      "transaction_date": "2024-09-20",
+      "person": {
+        "display_name": "Alice Smith",
+        "address": "456 Oak Avenue, Townsville, Country",
+        "tax_no": "XY-987654321",
+        "address": "456 Oak Avenue, Townsville, Country"
+      },
+      "transaction_lines_attributes": [
+        {
+          "item": {
+            "product": {
+              "name": "Smartphone ABC"
+            },
+            "description": "Smartphone 128GB 6GB RAM",
+            "quantity": 1,
+            "rate_currency_format": "$750.00",
+            "amount_currency_format": "$750.00"
+          }
+        },
+        {
+          "item": {
+            "product": {
+              "name": "Phone Case"
+            },
+            "description": "Phone case",
+            "quantity": 2,
+            "rate_currency_format": "$20.00",
+            "amount_currency_format": "$40.00"
+          }
+        }
+      ],
+      "subtotal_currency_format": "$790.00",
+      "tax_details": [
+        {
+          "item": {
+            "name": "Sales Tax",
+            "tax_amount_currency_format": "$79.00"
+          }
+        }
+      ],
+      "remaining_currency_format": "$869.00"
+    }
+  },
+  {
+    "sales_order": {
+      "id": "SO456123789",
+      "transaction_date": "2024-09-22",
+      "person": {
+        "display_name": "Bob Johnson",
+        "address": "789 Pine Road, Villageville, Country",
+        "tax_no": "LM-456123789",
+        "address": "789 Pine Road, Villageville, Country"
+      },
+      "transaction_lines_attributes": [
+        {
+          "item": {
+            "product": {
+              "name": "Monitor DEF"
+            },
+            "description": "27-inch 144Hz monitor",
+            "quantity": 1,
+            "rate_currency_format": "$300.00",
+            "amount_currency_format": "$300.00"
+          }
+        },
+        {
+          "item": {
+            "product": {
+              "name": "HDMI Cable"
+            },
+            "description": "6-foot HDMI cable",
+            "quantity": 3,
+            "rate_currency_format": "$15.00",
+            "amount_currency_format": "$45.00"
+          }
+        }
+      ],
+      "subtotal_currency_format": "$345.00",
+      "tax_details": [
+        {
+          "item": {
+            "name": "VAT",
+            "tax_amount_currency_format": "$34.50"
+          }
+        }
+      ],
+      "remaining_currency_format": "$379.50"
+    }
+  }
+]

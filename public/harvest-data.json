@@ -1,0 +1,38 @@
+[
+    {
+      "harvest_order": {
+        "id": "HO987654321",
+        "transaction_date": "2024-09-20",
+        "person": {
+          "display_name": "Alice Smith",
+          "address": "456 Oak Avenue, Townsville, Country",
+          "tax_no": "XY-987654321"
+        },
+        "harvest_details": [
+          {
+            "product_name": "Palm Oil Batch A",
+            "quantity": 1000,
+            "price_per_unit_currency_format": "$5.00",
+            "total_amount_currency_format": "$5000.00"
+          },
+          {
+            "product_name": "Palm Oil Batch B",
+            "quantity": 800,
+            "price_per_unit_currency_format": "$4.50",
+            "total_amount_currency_format": "$3600.00"
+          }
+        ],
+        "subtotal_currency_format": "$8600.00",
+        "tax_details": [
+          {
+            "item": {
+              "name": "Sales Tax",
+              "tax_amount_currency_format": "$860.00"
+            }
+          }
+        ],
+        "remaining_currency_format": "$9460.00"
+      }
+    }
+  ]
+  
