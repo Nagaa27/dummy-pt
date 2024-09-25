@@ -283,7 +283,13 @@ const SalesOrders: React.FC = () => {
         </div>
       </div>
 
-      <button onClick={downloadPDF} style={{ marginTop: '20px' }}>Download PDF</button>
+      <button
+  onClick={downloadPDF}
+  className="mt-5 bg-green-500 text-white font-bold py-2 px-4 rounded hover:bg-green-600 transition duration-300"
+>
+  Download PDF
+</button>
+
     </div>
   );
 };
